@@ -1,12 +1,13 @@
 body {
     font-family: "Roboto", sans-serif;
+    margin: 0px;
 }
 
 header{
     background-color: #1F2937;
     display: flex;
     justify-content: space-evenly;
-    flex: 0 0 100%;
+    padding: 0px 0px 0px 0px;
 }
 
 .header-logo {
@@ -15,14 +16,14 @@ header{
     font-weight: bold;
     display: flex;
     align-items: center;
-    flex-wrap: nowrap;
+    width: 500px;
 }
 
 .header-links {
     color: #E5E7EB;
     font-size: 18px;
     padding: 0px 10px 0px 0px;
-    flex-wrap: nowrap;
+    width: 500px;
 }
 
 footer {
@@ -36,4 +37,36 @@ footer {
 a {
     text-decoration: none;
     color: #E5E7EB;
+}
+
+.intro {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px 0px 50px 0px;
+}
+
+.intro-left {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 100px;
+}
+
+.intro-right {
+    background-color: grey;
+    font-size: 18px;
+    width: 500px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subtext {
+    color: #E5E7EB;
+    font-size: 18px;
 }
