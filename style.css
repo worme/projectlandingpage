@@ -1,13 +1,36 @@
-body {}
+body {
+    font-family: "Roboto", sans-serif;
+}
 
-header {}
+header{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-evenly;
+    flex: 0 0 100%;
+}
 
-footer {}
+.header-logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
 
-ul {}
+.header-links {
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 0px 10px 0px 0px;
+    flex-wrap: nowrap;
+}
 
-a {}
+footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
 
-button {}
-
-.card {}
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
