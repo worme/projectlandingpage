@@ -121,3 +121,22 @@ a {
     display: flex;
     justify-content: center;
 }
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.signature {
+    background-color: #E5E7EB;
+}
