@@ -47,7 +47,7 @@ a {
     font-weight: bolder;
     display: flex;
     justify-content: space-evenly;
-    padding: 100px 0px 50px 0px;
+    padding: 100px 0px 150px 0px;
 }
 
 .intro-left {
@@ -61,7 +61,7 @@ a {
     background-color: lightgray;
     font-size: 18px;
     width: 500px;
-    height: 200px;
+    height: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -74,11 +74,12 @@ a {
 
 .intro-button {
     background-color: #3882f6;
-    color: #F9FAF8;
+    color: white;
+    font-weight: bold;
     border-radius: 7px;
     border: 0px;
-    width: 125px;
-    padding: 5px;
+    width: 140px;
+    padding: 8px 30px;
     margin-top: 10px;
 }
 
@@ -111,11 +112,14 @@ a {
 
 .info-subtext {
     text-align: center;
+    font-size: 18px;
+    color: #1F2937;
 }
 
 .info {
     display: flex;
     flex-direction: column;
+    padding-bottom: 75px ;
 }
 
 .container-of-cards {
@@ -178,6 +182,7 @@ button {
 
 .signup-bottom-text {
     font-size: 18px;
+    color: #E5E7EB;
 }
 
 .signup-top-text {
